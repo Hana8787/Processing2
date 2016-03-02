@@ -1,0 +1,11 @@
+String avatar = "https://api.adorable.io/avatars/285/";
+
+String nevem = "Hana";
+String url = avatar+ nevem;
+
+PImage kep =loadImage (url, "png");
+
+size(500, 500);
+background(#ff0000);
+image(kep, 0, 0);
+text(url,0, 50);
